@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Happy Birthday Aboonch! I love you much (˶  >   ₃  < ˶)♡";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazUzc3R0amlhcDl3NmFhNnI0MzlqczA2dHlwdWZjcmhzdmwwMXFvbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HXxib6eQdUVnNLLGbd/giphy-downsized-large.gif";
 
 // Hide the noBtn after clicking yesBtn
   noBtn.style.display = "none";
